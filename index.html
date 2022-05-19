@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="carfinder.css" />
+    <title>Car Finder</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="font-size: 45px;">Car Finder</h1>
+      <div class="flex">
+        <form class="flex" id="submit">
+          <input type="text" id="search-box" placeholder="Search for Cars or keywords" required/> 
+          <!-- <button class="search-btn" type="submit">
+            <i class="fas fa-search" style="color: blue;"></i>
+          </button> -->
+        </form>
+        <button class="random-btn" id="random">
+          <i class="fas fa-random" style="color:blue" ></i>
+        </button>
+      </div>
+      <div class="image-container">
+        <div class="image" data-title="audi">
+          <img src="images/audi1.jpg" alt=""><br>
+          <h3>audi 01</h3><br>
+        </div><br>
+
+        <div class="image" data-title="audi">
+          <img src="images/audi2.jpg" alt=""><br>
+          <h3>audi 02</h3><br>
+        </div>
+
+        <div class="image" data-title="audi">
+          <img src="images/audi3.jpg" alt=""><br>
+          <h3>audi 03</h3><br>
+        </div>
+
+        <div class="image" data-title="benz">
+          <img src="images/benz1.jpg" alt=""><br>
+          <h3>benz 01</h3><br>
+        </div>
+
+        <div class="image" data-title="benz">
+          <img src="images/benz2.jpg" alt="">
+          <h3>benz 02</h3><br>
+        </div>
+
+        <div class="image" data-title="benz">
+          <img src="images/benz3.jpg" alt="">
+          <h3>benz 03</h3><br>
+        </div><br>
+
+        <div class="image" data-title="rollsroyce">
+          <img src="images/rollsroyce1.jpg" alt="">
+          <h3>rollsroyce 01</h3><br>
+        </div>
+
+        <div class="image" data-title="rollsroyce">
+          <img src="images/rollsroyce2.jpg" alt="">
+          <h3>rollsroyce 02</h3><br>
+        </div>
+
+        <div class="image" data-title="rollsroyce">
+          <img src="images/rollsroyce3.jpg" alt="">
+          <h3>rollsroyce 03</h3><br>
+        </div>
+
+      </div> 
+
+      <!-- <div id="result-heading"></div>
+      <div id="cars" class="cars"></div>
+      <div id="single-car"></div> -->
+    </div>
+
+    <script src="carfinder.js"></script>
+  </body>
+</html>
